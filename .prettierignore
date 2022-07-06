@@ -1,0 +1,5 @@
+node_modules
+dist
+**/__generated__/**
+src/typings/graphql-global-types.ts
+*.yml

@@ -1,0 +1,9 @@
+*.DS_Store
+storybook_static/
+storybook-static/
+.vscode
+dist/
+.stylelintcache
+.eslintcache
+.parcel-cache
+node_modules/

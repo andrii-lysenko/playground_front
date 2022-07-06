@@ -1,0 +1,11 @@
+version: '3'
+services:
+    sample-frontend:
+        build:
+            context: .
+            args:
+                ENVIRONMENT: 'local'
+                REST_API_URL: 'localhost:3001'
+                GRAPHQL_URL: 'localhost:3000/api/graphql'
+        ports:
+            - '8080:80'
